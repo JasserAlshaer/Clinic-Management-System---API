@@ -1,6 +1,8 @@
 using ClinicManagementAPI.Interface;
+using ClinicManagmentAPI.Context;
 using ClinicManagmentAPI.Implementations;
 using ClinicManagmentAPI.Interface;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using Serilog;
 using System.Reflection;
@@ -12,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+//Configure 
+builder.Services.AddDbContext<ClinicManagementDbContext>(con =>  
+con.UseSqlServer(builder.Configuration.GetConnectionString("sqlconnectlocal")));
 //Dependancy Injection For Implementation Classes
 builder.Services.AddScoped<IApointmentService, ApointmentService>();
 builder.Services.AddScoped<IInvoiceService, InvoiceService>();

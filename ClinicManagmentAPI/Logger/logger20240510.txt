@@ -1,1 +1,21 @@
 2024-05-10 03:06:27.523 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:21:11.088 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:26:46.249 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:26:59.662 +03:00 [INF] GetUsers Was Called
+2024-05-10 03:26:59.663 +03:00 [INF] GetUsers Was Return
+2024-05-10 03:27:42.826 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:27:48.850 +03:00 [INF] GetUsers Was Called
+2024-05-10 03:27:48.851 +03:00 [INF] GetUsers Was Return
+2024-05-10 03:27:48.935 +03:00 [ERR] No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+2024-05-10 03:28:21.597 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:28:24.774 +03:00 [INF] GetUsers Was Called
+2024-05-10 03:28:24.775 +03:00 [INF] GetUsers Was Return
+2024-05-10 03:28:24.864 +03:00 [ERR] No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+2024-05-10 03:29:29.927 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:29:33.441 +03:00 [INF] GetUsers Was Called
+2024-05-10 03:29:33.442 +03:00 [INF] GetUsers Was Return
+2024-05-10 03:29:33.526 +03:00 [ERR] No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+2024-05-10 03:31:32.645 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 03:31:38.294 +03:00 [INF] GetUsers Was Called
+2024-05-10 03:31:38.294 +03:00 [INF] GetUsers Was Return
+2024-05-10 03:31:38.382 +03:00 [ERR] No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.

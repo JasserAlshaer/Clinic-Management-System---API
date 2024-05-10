@@ -8,8 +8,6 @@ namespace ClinicManagmentAPI.Models.Enitites
         public string FileName { get; set; }
         public string Path { get; set; }
         public AttachementType AttachementType { get; set; }
-        public virtual MedicalReport MedicalReport { get; set; }
-        public virtual User Employee { get; set; }
-        public virtual User Doctor { get; set; }
+        public int? MedicalReportId { get; set; }
     }
 }

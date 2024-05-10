@@ -18,7 +18,5 @@ namespace ClinicManagmentAPI.Models.Enitites
         public DiesesType DiesesType { get; set; }
         public Role Role { get; set; }
         public Gender Gender { get; set; }
-        public List<MedicalReport> MedicalReports { get; set; }
-        public List<Appointment> Appointments { get; set; }
     }
 }

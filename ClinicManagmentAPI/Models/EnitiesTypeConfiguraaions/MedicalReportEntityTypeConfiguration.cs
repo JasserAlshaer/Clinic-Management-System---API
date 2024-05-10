@@ -12,12 +12,16 @@ namespace ClinicManagmentAPI.Models.EnitiesTypeConfiguraaions
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.CreationDate).IsRequired();
-            builder.Property(x => x.IsDeleted).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.CreatorUser).IsRequired();
-            builder.Property(x => x.ModifiedDate).IsRequired(false);
-            builder.Property(x => x.ModifiedUser).IsRequired(false);
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.IsDeleted).HasDefaultValue(false);
+
+            //Relationships 
+            builder.HasMany<MedicalProuducre>().WithOne().HasForeignKey(x => x.MedicalReportId);
+            builder.HasMany<MedicalReportLaborityTest>().WithOne().HasForeignKey(x => x.MedicalReportId);
+            builder.HasMany<MedicalReportAttachement>().WithOne().HasForeignKey(x => x.MedicalReportId);
+            builder.HasMany<MedicienList>().WithOne().HasForeignKey(x => x.MedicalReportId);
+            builder.HasMany<SickLeave>().WithOne().HasForeignKey(x => x.MedicalReportId);
+            builder.HasMany<Invoice>().WithOne().HasForeignKey(x => x.MedicalReportId);
         }
     }
 }

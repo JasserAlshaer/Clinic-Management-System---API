@@ -9,8 +9,8 @@ namespace ClinicManagmentAPI.Models.Enitites
         public CaseType CaseType { get; set; }
         public string MainDescription { get; set; }
         public string Diagnosis { get; set; }
-        public virtual User User { get; set; }
-        public virtual User Employee { get; set; }
-        public virtual User Doctor { get; set; }
+        public int? UserId { get; set; }
+        public int? EmployeeId { get; set; }
+        public int? DoctorId { get; set; }
     }
 }

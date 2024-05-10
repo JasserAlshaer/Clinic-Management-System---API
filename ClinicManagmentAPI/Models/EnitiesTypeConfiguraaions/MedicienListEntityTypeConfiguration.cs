@@ -16,16 +16,16 @@ namespace ClinicManagmentAPI.Models.EnitiesTypeConfiguraaions
             builder.Property(x => x.QTN).IsRequired();
             builder.Property(x => x.Dose).IsRequired();
             builder.Property(x => x.PerHour).IsRequired();
-            builder.Property(x => x.UserId).IsRequired();
+            builder.Property(x => x.MedicalReportId).IsRequired();
             builder.Property(x => x.MedicienId).IsRequired();
             //shared entity configuration
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.CreationDate).IsRequired();
             builder.Property(x => x.CreationDate).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.CreatorUser).IsRequired();
-            builder.Property(x => x.ModifiedDate).IsRequired(false);
-            builder.Property(x => x.ModifiedUser).IsRequired(false);
+            
+            
+            
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.IsDeleted).HasDefaultValue(false);
         }

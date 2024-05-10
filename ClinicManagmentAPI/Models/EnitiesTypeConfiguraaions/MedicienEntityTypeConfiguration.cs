@@ -19,9 +19,6 @@ namespace ClinicManagmentAPI.Models.EnitiesTypeConfiguraaions
             builder.Property(x => x.Id).UseIdentityColumn();
             builder.Property(x => x.CreationDate).IsRequired();
             builder.Property(x => x.CreationDate).HasDefaultValue(DateTime.Now);
-            builder.Property(x => x.CreatorUser).IsRequired();
-            builder.Property(x => x.ModifiedDate).IsRequired(false);
-            builder.Property(x => x.ModifiedUser).IsRequired(false);
             builder.Property(x => x.IsDeleted).IsRequired();
             builder.Property(x => x.IsDeleted).HasDefaultValue(false);
         }
