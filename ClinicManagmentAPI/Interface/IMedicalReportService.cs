@@ -3,7 +3,7 @@
     public interface IMedicalReportService
     {
         // Method to get all medical reports
-        Task<List<GetMedicalReportDTO>> GetAllMedicalReports();
+        Task<List<GetMedicalReportDTO>> GetAllMedicalReports(int? userId = null);
         // Method to get a medical report by its ID
         Task<GetMedicalReportDTO> GetMedicalReportById(int Id);
         // Method to create a new medical report

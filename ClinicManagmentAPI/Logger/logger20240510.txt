@@ -19,3 +19,88 @@
 2024-05-10 03:31:38.294 +03:00 [INF] GetUsers Was Called
 2024-05-10 03:31:38.294 +03:00 [INF] GetUsers Was Return
 2024-05-10 03:31:38.382 +03:00 [ERR] No database provider has been configured for this DbContext. A provider can be configured by overriding the 'DbContext.OnConfiguring' method or by using 'AddDbContext' on the application service provider. If 'AddDbContext' is used, then also ensure that your DbContext type accepts a DbContextOptions<TContext> object in its constructor and passes it to the base constructor for DbContext.
+2024-05-10 04:35:26.532 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 04:35:36.582 +03:00 [INF] GetUsers Was Called
+2024-05-10 04:35:36.583 +03:00 [INF] GetUsers Was Return
+2024-05-10 06:02:49.454 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 06:11:07.754 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:02:12.542 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:02:22.959 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:02:22.960 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:02:24.890 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:04:36.323 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:04:46.325 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:04:46.325 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:04:47.889 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:08:54.295 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:08:54.295 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:09:27.380 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:09:35.389 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:09:35.389 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:11:29.828 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:11:36.726 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:11:36.727 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:11:53.982 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:11:53.982 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:11:54.074 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:15:00.378 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:15:05.755 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:15:05.756 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:15:07.206 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:15:14.628 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:15:14.628 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:15:14.721 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:15:19.959 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:15:19.959 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:16:09.412 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:16:19.172 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:16:19.172 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:16:20.598 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:17:11.889 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:17:17.173 +03:00 [INF] GetAppointmentDetails Was Called
+2024-05-10 15:17:17.174 +03:00 [INF] GetAppointmentDetails Was Return
+2024-05-10 15:17:18.494 +03:00 [ERR] There is No Any Appointment With The Given Id
+2024-05-10 15:42:53.085 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:43:01.154 +03:00 [INF] GetMedicineObject Was Called
+2024-05-10 15:43:01.154 +03:00 [INF] GetMedicineObject Was Return
+2024-05-10 15:44:37.469 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:45:03.765 +03:00 [INF] GetMedicineObject Was Called
+2024-05-10 15:45:03.765 +03:00 [INF] GetMedicineObject Was Return
+2024-05-10 15:45:05.247 +03:00 [ERR] There is No Any Medicien With The Given Id
+2024-05-10 15:51:56.040 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:52:30.253 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:52:38.611 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:52:38.611 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:55:50.328 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:55:57.568 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:55:57.569 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:55:59.020 +03:00 [ERR] There is No Any Title With The Given Id
+2024-05-10 15:56:38.880 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:56:58.297 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:56:58.298 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:56:59.645 +03:00 [ERR] There is No Any Title With The Given Id
+2024-05-10 15:57:14.808 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:57:22.878 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:57:22.878 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:57:24.166 +03:00 [ERR] There is No Any Title With The Given Id
+2024-05-10 15:58:14.182 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:58:14.182 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:58:14.287 +03:00 [ERR] Queries performing 'LastOrDefault' operation must have a deterministic sort order. Rewrite the query to apply an 'OrderBy' operation on the sequence before calling 'LastOrDefault'.
+2024-05-10 15:58:43.352 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:58:50.780 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:58:50.780 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 15:59:08.486 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 15:59:15.244 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 15:59:15.244 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 16:00:02.995 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 16:00:08.201 +03:00 [INF] GetMedicineObject Was Called
+2024-05-10 16:00:08.202 +03:00 [INF] GetMedicineObject Was Return
+2024-05-10 16:00:09.525 +03:00 [ERR] There is No Any Medicien With The Given Id
+2024-05-10 16:00:20.195 +03:00 [INF] GetProudureTitleObject Was Called
+2024-05-10 16:00:20.195 +03:00 [INF] GetProudureTitleObject Was Return
+2024-05-10 16:05:37.574 +03:00 [INF] Clinic Management System API Has been Launched Successfully
+2024-05-10 16:05:44.511 +03:00 [INF] GetAttachmentObjectById Was Called
+2024-05-10 16:05:44.512 +03:00 [INF] GetAttachmentObjectById Was Return
+2024-05-10 16:05:45.754 +03:00 [ERR] There is No Any Attachment With The Given Id
+2024-05-10 16:06:46.911 +03:00 [INF] GetAttachmentObjectById Was Called
+2024-05-10 16:06:46.911 +03:00 [INF] GetAttachmentObjectById Was Return

@@ -1,11 +1,17 @@
 ﻿using ClinicManagementAPI.DTOs.MedicienListDTO;
 using ClinicManagementAPI.Interface;
+using ClinicManagmentAPI.Context;
 using ClinicManagmentAPI.DTOs.MedicienListDTO;
+using ClinicManagmentAPI.Implementations.baseImplementation;
 
 namespace ClinicManagmentAPI.Implementations
 {
-    public class MedicienListService : IMedicienListService
+    public class MedicienListService : BaseAppService, IMedicienListService
     {
+        public MedicienListService(ClinicManagementDbContext context) : base(context)
+        {
+        }
+
         public async Task CreateNewMedicineList(CreateMedicienListDTO dto)
         {
             throw new NotImplementedException();

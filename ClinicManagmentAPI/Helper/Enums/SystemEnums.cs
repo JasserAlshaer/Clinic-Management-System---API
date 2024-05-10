@@ -2,6 +2,12 @@
 {
     public static class SystemEnums
     {
+        public enum AppointmentStatus
+        {
+            Pending,
+            Approved,
+            Rejected
+        }
         public enum Role
         {
             Admin,

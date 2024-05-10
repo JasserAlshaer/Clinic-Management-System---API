@@ -1,10 +1,13 @@
-﻿namespace ClinicManagmentAPI.Interface
+﻿using ClinicManagmentAPI.Models.Enitites;
+
+namespace ClinicManagmentAPI.Interface
 {
     public interface IMedicalReportAttachmentService
     {
-        public bool CreatrMedicalReportAttachement();
-        public bool UpdateMedicalReportAttachement();
-        public bool DeletMedicalReportAttachement();
+        Task<MedicalReportAttachement> GetReportAttachementById(int Id);
+        bool CreatrMedicalReportAttachement();
+        bool UpdateMedicalReportAttachement();
+        bool DeletMedicalReportAttachement();
 
     }
 }

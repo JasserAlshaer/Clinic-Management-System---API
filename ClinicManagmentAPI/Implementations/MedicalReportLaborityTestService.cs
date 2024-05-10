@@ -1,11 +1,17 @@
-﻿using ClinicManagmentAPI.DTOs.MedicalReprtLaborityTesst;
+﻿using ClinicManagmentAPI.Context;
+using ClinicManagmentAPI.DTOs.MedicalReprtLaborityTesst;
+using ClinicManagmentAPI.Implementations.baseImplementation;
 using ClinicManagmentAPI.Interface;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ClinicManagmentAPI.Implementations
 {
-    public class MedicalReportLaborityTestService : IMedicalReportLaborityTestService
+    public class MedicalReportLaborityTestService : BaseAppService, IMedicalReportLaborityTestService
     {
+        public MedicalReportLaborityTestService(ClinicManagementDbContext context) : base(context)
+        {
+        }
+
         public async Task<IActionResult> CreateMedicalReportLaborityTest(MedicalReportLaborityTestCreateDTO dto)
         {
             throw new NotImplementedException();

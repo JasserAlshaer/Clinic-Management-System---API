@@ -8,7 +8,7 @@ namespace ClinicManagementAPI.Interface
         Task <IActionResult> AddMedicalProcedure(CreateMedicalProcedureDTO dto);
         Task <IActionResult> UpdateMedicalProcedure(UpdateMedicalProcedureDTO dto);
         Task <IActionResult> GetMedicalProcedureById(int id);
-        Task <IActionResult> GetAllMedicalProcedure();
+        Task <List<GetMedicalProcedureDTO>> GetAllMedicalProcedure(int medicalReportId);
         Task <IActionResult> DeleteMedicalProcedure(int id);
     }
 }
